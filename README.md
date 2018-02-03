@@ -150,6 +150,23 @@ class MediaService : IMediaService
 * Xamarin Forms kullanım için;
 <pre><code class='language-cs'>
 var resizeFile = DependencyService.Get<IMediaService>().ResizeImage(file.Path, 300, 300);
+var resizeFile = DependencyService.Get<IMediaService>().ResizeImage(ReadFully(file.GetStream()), 300, 300);
+</code></pre>
+
+<pre><code class='language-cs'>
+        public byte[] ReadFully(Stream input)
+        {
+            byte[] buffer = new byte[16 * 1024];
+            using (MemoryStream ms = new MemoryStream())
+            {
+                int read;
+                while ((read = input.Read(buffer, 0, buffer.Length)) > 0)
+                {
+                    ms.Write(buffer, 0, read);
+                }
+                return ms.ToArray();
+            }
+        }
 </code></pre>
 
 ## yigit@ozaksut.com

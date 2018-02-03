@@ -7,8 +7,21 @@ using Xamarin.Forms;
 namespace ImageResizer
 {
     public partial class MainPage : ContentPage
-	{
-		public MainPage()
+    {
+        public byte[] ReadFully(Stream input)
+        {
+            byte[] buffer = new byte[16 * 1024];
+            using (MemoryStream ms = new MemoryStream())
+            {
+                int read;
+                while ((read = input.Read(buffer, 0, buffer.Length)) > 0)
+                {
+                    ms.Write(buffer, 0, read);
+                }
+                return ms.ToArray();
+            }
+        }
+        public MainPage()
 		{
 			InitializeComponent();
 		}
@@ -35,6 +48,7 @@ namespace ImageResizer
 
                 imgOriginalImage.Source = file.Path;
 
+                //var resizeFile = DependencyService.Get<IMediaService>().ResizeImage(ReadFully(file.GetStream()), 300, 300);
                 var resizeFile = DependencyService.Get<IMediaService>().ResizeImage(file.Path, 300, 300);
                 if (resizeFile.Length > 0)
                 {
