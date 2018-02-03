@@ -1,4 +1,5 @@
 # Xamarin Forms Resim Boyutlandırma
+* http://ozaksut.com/xamarin-forms-resim-islemleri/
 * Interface
 <pre><code class='language-cs'>
     public interface IMediaService
