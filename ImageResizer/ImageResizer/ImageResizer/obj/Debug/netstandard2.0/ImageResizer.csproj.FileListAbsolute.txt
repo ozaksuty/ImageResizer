@@ -1,0 +1,11 @@
+C:\Users\Yigit\source\repos\ImageResizer\ImageResizer\ImageResizer\bin\Debug\netstandard2.0\ImageResizer.deps.json
+C:\Users\Yigit\source\repos\ImageResizer\ImageResizer\ImageResizer\bin\Debug\netstandard2.0\ImageResizer.dll
+C:\Users\Yigit\source\repos\ImageResizer\ImageResizer\ImageResizer\bin\Debug\netstandard2.0\ImageResizer.pdb
+C:\Users\Yigit\source\repos\ImageResizer\ImageResizer\ImageResizer\obj\Debug\netstandard2.0\ImageResizer.csprojResolveAssemblyReference.cache
+C:\Users\Yigit\source\repos\ImageResizer\ImageResizer\ImageResizer\obj\Debug\netstandard2.0\ImageResizer.csproj.CoreCompileInputs.cache
+C:\Users\Yigit\source\repos\ImageResizer\ImageResizer\ImageResizer\obj\Debug\netstandard2.0\ImageResizer.App.xaml.g.cs
+C:\Users\Yigit\source\repos\ImageResizer\ImageResizer\ImageResizer\obj\Debug\netstandard2.0\ImageResizer.MainPage.xaml.g.cs
+C:\Users\Yigit\source\repos\ImageResizer\ImageResizer\ImageResizer\obj\Debug\netstandard2.0\ImageResizer.AssemblyInfoInputs.cache
+C:\Users\Yigit\source\repos\ImageResizer\ImageResizer\ImageResizer\obj\Debug\netstandard2.0\ImageResizer.AssemblyInfo.cs
+C:\Users\Yigit\source\repos\ImageResizer\ImageResizer\ImageResizer\obj\Debug\netstandard2.0\ImageResizer.dll
+C:\Users\Yigit\source\repos\ImageResizer\ImageResizer\ImageResizer\obj\Debug\netstandard2.0\ImageResizer.pdb
